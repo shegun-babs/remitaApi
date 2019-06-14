@@ -1,0 +1,29 @@
+{
+    "name": "shegunbabs/remita",
+    "description": "Systemspecs Remita API library in PHP",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shegun Babs",
+            "email": "shegun.babs@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+	"require": {
+        "php": ">=7.1.0",
+        "guzzlehttp/guzzle": "^6.3",
+        "nesbot/carbon": "^2.19"
+    },
+	"autoload": {
+        "psr-4": {
+            "ShegunBabs\\Remita\\": "src/"
+        },
+        "files": [
+            "src/Helpers.php"
+        ]
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^4.3"
+    }
+}
